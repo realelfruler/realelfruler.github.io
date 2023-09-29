@@ -1,14 +1,146 @@
 <!DOCTYPE html>
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Home!</title>
     
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-    <!-- <link rel="icon" type="image/x-icon" href="FAVICON LINK"> -->
-</head>
+    <link rel="icon" type="image/x-icon" href="images/mushroom.png">
+    
+    <style>
+      body {
+        background-image: url('images/windows-background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      
+      img {
+        width: 25%;
+      }
+      
+      .small-container {
+        outline: 1px solid black;
+        box-shadow: 2px 2px 5px black;
+      }
+      
+      .sub-large {
+        outline: 1px solid black;
+        box-shadow: 2px 2px 5px black;
+      }
+      
+      @media (max-width: 800px) {
+        img {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
 
-<body>
-    <p><a href="/foralleternity">For All Eternity</a></p>
-</body>
+  <body>
+    <h1>Welcome Home :-)</h1>
+    
+    <div class="large-container"> <!-- contains the entire page within a single flex box -->
+      <div class="sub-small">
+      
+        <!-- About Me -->
+        <div class="small-container" style="padding-top: 0px; line-height: 0px">
+          <p><b>about me</b></p>
+          
+          <div class="smaller-container">
+            <!-- colors: 
+              #9D89B2 (purple): names, places
+              #9ABA25 (green): things, adjectives, jobs, styles
+              #93D0DF (blue): asides, 'internal' thoughts
+            -->
+            
+            <!-- introduction -->
+            <p>hi! my name is <span style="color: #9D89B2">miles asher</span> (<span style="color:#9D89B2">he/him</span>), and i'm an <span style="color: #9ABA25">artist</span>, <span style="color: #9ABA25">writer</span>, and amateur coder living in the <span style="color: #9D89B2">united states</span>.</p>
+            
+            <!-- more specific stuff about me -->
+            <p>right now, my favorite media is <span style="color: #9D89B2">ace attorney</span>, and my favorite character is <span style="color: #9D89B2">klavier gavin</span>! <span style="color: #93D0DF">(though, i do very much enjoy apollo justice as well...)</span>. i also like the game <span style="color: #9D89B2">dredge</span>. i enjoy listening to <span style="color: #9ABA25">80s music</span>, <span style="color: #9ABA25">disco</span>, and the band <span style="color: #9D89B2">the flaming lips</span>.</p>
+            
+            <!-- job & education -->
+            <p>currently, i'm a <span style="color: #9ABA25">college student</span>, working to get a degree in <span style="color: #9D89B2">anthropology and sociology</span>, with a minor <span style="color: #93D0DF">(or possibly a major)</span> in <span style="color: #9D89B2">religious studies.</span></p>
+            <p>right now, i'm an <span style="color: #9ABA25">intern</span> at a local <span style="color: #9D89B2">history museum</span>, doing research and assisting in creating exhibits for the <span style="color: #9D89B2">250th anniversary of the declaration of independence</span>. i know a lot of <span style="color: #9ABA25">obscure history stuff</span>, and am always excited to do research, so if you want to talk to me about <span style="color: #9ABA25">american history</span> or <span style="color: #9ABA25">religion</span>, send me an <span style="color: #9ABA25">ask</span> on <span style="color: #9D89B2">tumblr</span>!</p>
+          </div>
+        </div>
+        
+        <!-- links -->
+        <div class="small-container"  style="padding-top: 0px; line-height: 0">
+          <p><b>links</b></p>
+          <div class="smaller-container" style="line-height: 1">
+            <ul>
+              <li><a href="https://fancy-feast-official.tumblr.com/">tumblr</a></li>
+              <li><a href="https://artistree.io/request/fancyfeastofficial">artistree</a></li>
+              <li><a href="https://fancy-feast-official.tumblr.com/post/718072494146387968/">oc list!!</a></li>
+              <li><a href="aud-al.html">AUDIO ALMANAC</a></li>
+              <li><a href="https://archiveofourown.org/users/realelfruler">ao3</a></li>
+              <li><a href="dog.html">dog</a></li>
+              <li><a href="art/oc-gallery.html">my ocs!</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- silly -->
+        <div class="small-container" style="padding-top: 0; line-height:0">
+          <p><b><a href="https://www.tumblr.com/fancy-feast-official/719438175149408256" style="color: white; text-decoration: none">other</a></b></p>
+          <div class="smaller-container" style="line-height: 1">
+            <a href="https://www.mozilla.org/en-US/firefox/new/" class="image"><img src="images/gifs/use-firefox-button.gif" alt="a black pixel art blinkie with a flashing red and white border. the text is white and reads 'use firefox', with an orange fireball to the right of it that wiggles back and forth rapidly" style="width: 100%"></a>
+            <a href="https://ublockorigin.com/" class="image"><img src="images/gifs/ublock-origin-button.gif" alt="a black pixel art style blinkie with a dotted rainbow border. There are two party poppers in the bottom corners which continuously shoot out confetti. the text in the center says 'install ublock origin,' and continuously cycles through the different colors of the rainbow" style="width: 100%"></a>
+          </div>
+        </div>
+        
+        <div class="small-container" style="padding-top: 0; line-height:0">
+          <p><b>???</b></p>
+          <div class="smaller-container" style="line-height: 1">
+            <img src="images/grave-marker.png" alt="a black granite grave marker with two angels on either side in the top corners. between them is the text 'here lies edward spatula boingo. born: ??. died: who fuckin' cares.' below that is a quote from abraham lincoln that reads 'don't believe everything you read on the internet'" style="width: 100%">
+          </div>
+        </div>
+      </div>
+      
+      <div class="sub-larger">
+        <!-- art examples -->
+        <!-- dune family portrait (rian, chrys, fechin) -->
+        <div class="sub-large" style="padding-top: 0px; line-height: 0">
+          <p><b>my art</b></p>
+          <div class="medium-container" style="padding: 5px; text-align: center; line-height: 1">
+            <h2>Dune Family Portrait</h2>
+            <a href="images/art/dune-fam-portrait-fechin.jpg" class="image">
+              <img src="images/art/dune-fam-portrait-fechin.jpg" alt="A digital painting of three figures in front of a green background, with a blue curtain hanging on the left of the piece. One of the figures, a pale woman with curly purple hair and a large pink dress, is holding a baby in her lap. The baby is wearing a white dress and matching cap, with bits of purple hair peeking out from under it. The third figure, a tan man in a green coat and a large scar diagonally from right to left across his face, who has slitted pupils and white hair, is standing behind them. He has his left arm leaning against a brown mantle, with a white and blue vase on it. The vase has a pink flower inside.">
+            </a>
+            <p style="text-align: left">this <span style="color: #9ABA25">painting</span> was made to be featured on my character blog, <a href="https://ask-fechin.tumblr.com/">'Ask Fechin'</a>, to be used in one of his posts. more broadly, 'Ask Fechin' is the social media of a seelie fae named <span style="color: #9D89B2">fechin dune-affean</span>, who is the ruler of a kingdom called <span style="color: #9D89B2">the dappled forest</span>, and he is one of the main characters of a story i'm writing with friends called <span style="color: #9D89B2">'For All Eternity,'</span> or 'FAE' for short. in the painting, he's featured as a baby with his mother, the deposed queen <span style="color: #9D89B2">chrysanthemum</span>, and his father, prince consort <span style="color: #9D89B2">rian</span>, shortly after her coronation.</p>
+          </div>
+        </div>
+        
+        <!-- fechin and knox coronation/wedding portrait -->
+        <div class="sub-large" style="padding-top: 0; line-height: 0">
+          <p><b>my art</b></p>
+          <div class="medium-container" style="padding: 5px; text-align: center; line-height: 1">
+            <h2>Dune-Affean Portrait</h2>
+            <a href="images/art/fech-knox-wedding.jpg" class="image">
+              <img src="images/art/fech-knox-wedding.jpg" alt="A digital painting of two figures, standing side by side in a garden, with green bushes and trees lined up symetrically in the background. The figure on the left has dark skin, dark green hair, and brown eyes, and is wearing a white shirt with a gold collar, and a short, green vest over it. He's also wearing green pants and knee-high brown boots. He's wearing a piece of white fabric that drapes over his nose and mouth. In his right hand is a glass orb, which the figure on the right has his hand over. The figure on the right is very pale, with lilac-colored hair and small antlers, and small green triangles tattooed under his eyes, with green lines that extend down to his jaw from the triangles. He has very pale blue eyes, and is staring directly at the viewer. He's wearing a gold collar that extends a bit down his chest. He is also wearing a green scarf, over a white wrapping that covers his chest, but exposes his stomach. He's wearing a blue sash that's tucked in the front of his blue skirt. He has no shoes, and anklets the same gold as his collar. In his right hand is a staff with a large bird skull on top. Both figures are wearing gold circlets, and have tattoos of suns between their eyebrows.">
+            </a>
+            <p style="text-align: left">this is another <span style="color: #9ABA25">digital painting</span> i made for <span style="color: #9D89B2">'Ask Fechin,'</span> as a way of celebrating his wedding anniversary with his husband, <span style="color: #9D89B2">prince consort knox</span>, an elf from the dappled forest's former enemy, the kingdom of <span style="color: #9D89B2">naranthia</span>. this portrait celebrates both their anniversary, as well as fechin's completion of his first year as king, which is why they're wearing their coronation clothing.</p>
+          </div>
+        </div>
+        
+        <!-- my extended essay from high school -->
+        <div class="sub-large" style="padding-top: 0; line-height: 0">
+          <p><b>my research</b></p>
+          <div class="medium-container" style="padding: 5px; text-align: center; line-height: 1">
+            <p style="text-align: left">i wrote this <span style="color: #9ABA25">essay</span> when i was in the <span style="color: #9D89B2">international baccalaureate (ib) program</span> in <span style="color: #9ABA25">high school</span>. i forgot to put in the <span style="color: #9ABA25">word count</span> before submitting it, and i no longer have a document version of this, only this pdf i had on my <span style="color: #9ABA25">old website</span>, but i do know that it's over <span style="color: #9ABA25">4,000 words</span>! while it's not my best work, i am still super proud that i made it :-).</p>
+            <object data="pdfs/visual-art.pdf" type="application/pdf" width="100%" height="800px">
+              <p>oops! the imbed isn't working right now. read the essay <a href="pdfs/visual-art.pdf">here</a>.</p>
+            </object>
+          </div>
+        </div>
+        
+        <div class="medium-container" style="background: none; outline: 0">
+          <a href="art/art.html" class="reverse"><p style="text-align: right; color: white">more stuff this way --></p></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
